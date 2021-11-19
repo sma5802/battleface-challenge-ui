@@ -10,7 +10,7 @@ import * as jp from 'jsonpath';
 })
 export class AppComponent {
   title = 'battleface-challenge';
-  url = 'http://localhost:8080/quotation';
+  url = 'https://battlefacedemoapi-demoapi.azuremicroservices.io/quotation/';
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':  'application/json',
